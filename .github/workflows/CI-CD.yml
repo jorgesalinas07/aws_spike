@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - uses: Slashgear/action-check-pr-title@2.0.0
-      with:
-        regex: '^OFI-[1-9]\d*: \w+'
+      - uses: Slashgear/action-check-pr-title@2.0.0
+        with:
+          regex: '^OFI-[1-9]\d*: \w+'
 
     steps:
       - uses: actions/checkout@v3
