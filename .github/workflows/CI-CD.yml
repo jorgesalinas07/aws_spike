@@ -1,0 +1,30 @@
+name: Staging CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-ci-cd-office-desk:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
+      - name: Validate PR name
+        uses: Slashgear/action-check-pr-title@v3.0.0
+        with:
+          regexp: '^OFI-[1-9]\d*: \w+'
