@@ -11,12 +11,6 @@ on:
 jobs:
   build-ci-cd-office-desk:
     runs-on: ubuntu-22.04
-
-    steps:
-      - uses: Slashgear/action-check-pr-title@2.0.0
-        with:
-          regex: '^OFI-[1-9]\d*: \w+'
-
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python 3.10
@@ -29,3 +23,8 @@ jobs:
         with:
           virtualenvs-create: true
           virtualenvs-in-project: true
+
+    steps:
+      - uses: Slashgear/action-check-pr-title@2.0.0
+        with:
+          regex: '^OFI-[1-9]\d*: \w+'
