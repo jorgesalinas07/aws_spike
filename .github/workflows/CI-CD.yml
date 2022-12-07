@@ -24,7 +24,7 @@ jobs:
           virtualenvs-create: true
           virtualenvs-in-project: true
 
-    steps:
-      - uses: Slashgear/action-check-pr-title@2.0.0
+      - name: Validate PR name
+        uses: Slashgear/action-check-pr-title@2.0.0
         with:
           regex: '^OFI-[1-9]\d*: \w+'
