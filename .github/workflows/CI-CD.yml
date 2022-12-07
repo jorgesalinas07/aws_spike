@@ -6,6 +6,9 @@ on:
       - main
     tags:
       - ['*/-stg']
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build-ci-cd-office-desk:
