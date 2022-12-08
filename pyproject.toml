@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "ioet_desk_reservation"
+version = "1.0.0"
+description = "Backend to ioet desk reservation"
+authors = []
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.semantic_release]
+version_variable = setup.py:__version__

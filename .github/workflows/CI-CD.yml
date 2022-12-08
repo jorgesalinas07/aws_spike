@@ -24,6 +24,10 @@ jobs:
           virtualenvs-create: true
           virtualenvs-in-project: true
 
+      - name: Install dependencies
+        run: |
+          make install
+
       - name: Validate PR name
         if: github.event_name == 'pull_request'
         uses: Slashgear/action-check-pr-title@v3.0.0
@@ -34,5 +38,3 @@ jobs:
         uses: relekang/python-semantic-release@master
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          repository_username: jorgesalinas07
-          repository_password: jdajm265
