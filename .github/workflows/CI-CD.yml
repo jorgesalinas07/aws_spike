@@ -28,3 +28,10 @@ jobs:
         uses: Slashgear/action-check-pr-title@v3.0.0
         with:
           regexp: '^OFI-[1-9]\d*: \w+'
+
+      - name: Python Semantic Release
+        uses: relekang/python-semantic-release@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          repository_username: jorgesalinas07
+        repository_password: jdajm265
