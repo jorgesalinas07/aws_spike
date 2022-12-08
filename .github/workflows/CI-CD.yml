@@ -25,6 +25,7 @@ jobs:
           virtualenvs-in-project: true
 
       - name: Validate PR name
+        if: github.event_name == 'pull_request'
         uses: Slashgear/action-check-pr-title@v3.0.0
         with:
           regexp: '^OFI-[1-9]\d*: \w+'
@@ -34,4 +35,4 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           repository_username: jorgesalinas07
-        repository_password: jdajm265
+          repository_password: jdajm265
