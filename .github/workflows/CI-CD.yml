@@ -37,7 +37,7 @@ jobs:
           regexp: '^OFI-[1-9]\d*: \w+'
 
   release:
-    needs: Quality
+    needs: build-ci-cd-office-desk
     runs-on: ubuntu-latest
     concurrency: release
     steps:
