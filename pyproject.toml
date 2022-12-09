@@ -10,6 +10,4 @@ python = "^3.9"
 
 [tool.semantic_release]
 branch = "main"
-version_variable = [
-    'semantic_release/__init__.py:__version__',
-]
+version_variable = "setup.py:__version__"
