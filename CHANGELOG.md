@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2022-12-09)
+
+
 ## v0.1.0 (2022-12-09)
 ### Feature
 * Add setup file ([`34f8163`](https://github.com/jorgesalinas07/aws_spike/commit/34f8163672edd33688fe849ba8e62390034f3f60))
