@@ -6,3 +6,4 @@ setup(
    name="setup",
    version=__version__,
 )
+
