@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.18.1 (2022-12-12)
+### Fix
+* Delete condition ([`a0bf4cd`](https://github.com/jorgesalinas07/aws_spike/commit/a0bf4cd8a3f60ccac59c1228fbe43690dbb39d8e))
+
 ## v0.18.0 (2022-12-12)
 ### Feature
 * Add tag format 2 ([`6ec9027`](https://github.com/jorgesalinas07/aws_spike/commit/6ec90275df30d75ccce39d8ed01e688c9cecd281))
