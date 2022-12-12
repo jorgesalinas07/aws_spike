@@ -2,6 +2,8 @@ name: General CI/CD
 
 on:
   push:
+    tags-ignore:
+      - '*-stg'
     branches:
       - main
   pull_request:
