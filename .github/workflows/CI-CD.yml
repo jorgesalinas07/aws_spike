@@ -1,4 +1,4 @@
-name: Staging CI/CD
+name: General CI/CD
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
         with:
           regexp: '^OFI-[1-9]\d*: \w+'
       - name: Python Semantic Release
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        #if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |
           pip install python-semantic-release
           git config --global user.name "github-actions"
