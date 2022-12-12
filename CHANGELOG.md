@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.18.3 (2022-12-12)
+### Fix
+* Delete space ([`99bd4f3`](https://github.com/jorgesalinas07/aws_spike/commit/99bd4f3ec60f94ba3ff039e743778722cf13da9a))
+
 ## v0.18.2 (2022-12-12)
 ### Fix
 * Add space ([`1a88bc4`](https://github.com/jorgesalinas07/aws_spike/commit/1a88bc4c1bb1b60d2ac584a02c667d7c420ec4cd))
