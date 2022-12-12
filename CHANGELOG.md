@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.14.1 (2022-12-12)
+
+
 ## v0.14.0 (2022-12-12)
 ### Feature
 * Add different name for CD ([`51de253`](https://github.com/jorgesalinas07/aws_spike/commit/51de2535339402b8ede2198d15a483adc810abbe))
