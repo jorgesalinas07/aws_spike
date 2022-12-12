@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.7.0 (2022-12-12)
+
+
 ## v0.6.0 (2022-12-12)
 ### Feature
 * Set branch name in .toml ([`5e7c69d`](https://github.com/jorgesalinas07/aws_spike/commit/5e7c69ddfcbfb8e350b0c13b8d2d02a4451b3f4e))
