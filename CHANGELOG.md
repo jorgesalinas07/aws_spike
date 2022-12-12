@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.16.1 (2022-12-12)
+
+
 ## v0.16.0 (2022-12-12)
 ### Feature
 * Add stage suffix ([`90f6884`](https://github.com/jorgesalinas07/aws_spike/commit/90f6884808297a1cf2c8ad4103d24a0a375193f4))
