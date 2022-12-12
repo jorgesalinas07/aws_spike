@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.16.0 (2022-12-12)
+### Feature
+* Add stage suffix ([`90f6884`](https://github.com/jorgesalinas07/aws_spike/commit/90f6884808297a1cf2c8ad4103d24a0a375193f4))
+
+### Fix
+* Delete space ([`aec1a01`](https://github.com/jorgesalinas07/aws_spike/commit/aec1a018667eb3d0e6d1a82517f03479d7c4982b))
+
 ## v0.15.0 (2022-12-12)
 
 
