@@ -14,4 +14,3 @@ prerelease_tag = "-stg"
 branch = "main"
 version_variable = "setup.py:__version__"
 upload_to_repository = false
-
