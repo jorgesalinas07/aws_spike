@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.14.4 (2022-12-12)
+
+
 ## v0.14.3 (2022-12-12)
 ### Fix
 * Remove addition with ([`4064ef1`](https://github.com/jorgesalinas07/aws_spike/commit/4064ef1fdbf7d844435b3c9307f9bcc815e85a2d))
