@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.18.0 (2022-12-12)
+### Feature
+* Add tag format 2 ([`6ec9027`](https://github.com/jorgesalinas07/aws_spike/commit/6ec90275df30d75ccce39d8ed01e688c9cecd281))
+* Add tag format ([`dcd0b53`](https://github.com/jorgesalinas07/aws_spike/commit/dcd0b53aa208ad6dfa41f1f1808e63a090d976ea))
+
+### Fix
+* Confirm stg suffix ([`8e5a0cc`](https://github.com/jorgesalinas07/aws_spike/commit/8e5a0cc86f5ec826aadecfbfe4eb6efbdde64cb2))
+
 ## v0.17.0 (2022-12-12)
 
 
