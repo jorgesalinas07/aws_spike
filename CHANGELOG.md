@@ -2,6 +2,19 @@
 
 <!--next-version-placeholder-->
 
+## v0.14.0 (2022-12-12)
+### Feature
+* Add different name for CD ([`51de253`](https://github.com/jorgesalinas07/aws_spike/commit/51de2535339402b8ede2198d15a483adc810abbe))
+* Add stagging CI-CD ([`5986799`](https://github.com/jorgesalinas07/aws_spike/commit/59867990a55428231682a3ba43b63bbb4499c7e5))
+* Add semantic release for only push to main ([`35d6cb4`](https://github.com/jorgesalinas07/aws_spike/commit/35d6cb478eb20841200e094f6602f697f2a59197))
+* Change with previous syntax ([`52003a6`](https://github.com/jorgesalinas07/aws_spike/commit/52003a6d6fa499eb60c10ed8c9e89c42a9116aa3))
+
+### Fix
+* Change tag position 3 ([`0c9898d`](https://github.com/jorgesalinas07/aws_spike/commit/0c9898d4de154a6a9836ca7cac7164d928d3d57c))
+* Change tag position 2 ([`9e9ed30`](https://github.com/jorgesalinas07/aws_spike/commit/9e9ed304620561da7a7fea4f2d148b562f8908a5))
+* Change tag position 1 ([`2852cae`](https://github.com/jorgesalinas07/aws_spike/commit/2852cae680a2f6123cc49d4a5906761a854dfc5b))
+* Change tag position ([`c1c1d32`](https://github.com/jorgesalinas07/aws_spike/commit/c1c1d322c4a2873219965230e31f5db14a3be937))
+
 ## v0.13.0 (2022-12-12)
 
 
