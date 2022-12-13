@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.0 (2022-12-13)
+### Feature
+* Add commit subject ([`bf90164`](https://github.com/jorgesalinas07/aws_spike/commit/bf901645a030f7e44a3bc85a1c388d2645914b19))
+
+### Fix
+* Remove version ([`6cfef0a`](https://github.com/jorgesalinas07/aws_spike/commit/6cfef0a06e6d833d24c7f9fb177494c4099256c5))
+
 ## v0.0.1 (2022-12-13)
 ### Fix
 * No angular commits are present ([`466ffef`](https://github.com/jorgesalinas07/aws_spike/commit/466ffef20c2da641a2ad027a020c052726f81a0f))
