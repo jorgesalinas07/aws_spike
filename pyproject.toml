@@ -10,6 +10,7 @@ python = "^3.9"
 
 [tool.semantic_release]
 tag_format = "v{version}-stg"
+commit_subject = "chore(release): Release v{version} [skip ci]"
 branch = "main"
 version_variable = "setup.py:__version__"
 upload_to_repository = false
