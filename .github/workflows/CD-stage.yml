@@ -24,4 +24,3 @@ jobs:
       - name: Install dependencies for stage
         run: |
           make install
-
