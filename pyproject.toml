@@ -9,9 +9,7 @@ authors = []
 python = "^3.9"
 
 [tool.semantic_release]
-version_source = "tag"
 tag_format = "v{version}-stg"
 branch = "main"
 version_variable = "setup.py:__version__"
 upload_to_repository = false
-
