@@ -3,7 +3,7 @@ name: Staging CD
 on:
   push:
     tags:
-      - '*-stg'
+      - v'*'.'*'.'*'-stg
 
 jobs:
   build-ci-cd-office-desk-stage:
