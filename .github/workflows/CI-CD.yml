@@ -4,8 +4,6 @@ on:
   push:
     tags-ignore:
       - '*-stg'
-    branches:
-      - main
   pull_request:
     branches:
       - main
