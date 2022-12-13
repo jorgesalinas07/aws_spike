@@ -13,4 +13,3 @@ tag_format = "v{version}-stg"
 branch = "main"
 version_variable = "setup.py:__version__"
 upload_to_repository = false
-
