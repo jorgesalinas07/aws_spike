@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.18.4 (2022-12-13)
+### Fix
+* Remove stage suffix ([`5437ef0`](https://github.com/jorgesalinas07/aws_spike/commit/5437ef05ddc7fec72ee4e2f1ee0e46579e7b040c))
+
 ## v0.18.3 (2022-12-12)
 ### Fix
 * Delete space ([`99bd4f3`](https://github.com/jorgesalinas07/aws_spike/commit/99bd4f3ec60f94ba3ff039e743778722cf13da9a))
