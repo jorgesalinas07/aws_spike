@@ -2,6 +2,15 @@
 
 <!--next-version-placeholder-->
 
+## v0.19.0 (2022-12-13)
+### Feature
+* Add stg suffix to tag ([`dd1e2c9`](https://github.com/jorgesalinas07/aws_spike/commit/dd1e2c93a405846f0bce6a3f68a369ac0b4d4f4f))
+
+### Fix
+* Remove space ([`deb57f1`](https://github.com/jorgesalinas07/aws_spike/commit/deb57f1ef36ad2d16414ae989f91a937f15b8bbd))
+* Add space ([`693087c`](https://github.com/jorgesalinas07/aws_spike/commit/693087ce4f5c9136a44d05561de16ce627b88578))
+* Remove space ([`cf8da71`](https://github.com/jorgesalinas07/aws_spike/commit/cf8da71a7be9950598ab1a60566ca56e061adc46))
+
 ## v0.18.4 (2022-12-13)
 ### Fix
 * Remove stage suffix ([`5437ef0`](https://github.com/jorgesalinas07/aws_spike/commit/5437ef05ddc7fec72ee4e2f1ee0e46579e7b040c))
