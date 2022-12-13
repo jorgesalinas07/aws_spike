@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2022-12-13)
+### Feature
+* Change commit subject ([`9bf1bd1`](https://github.com/jorgesalinas07/aws_spike/commit/9bf1bd10296100d5e4b59d2203c25330212fbfcb))
+
 ## v0.1.0 (2022-12-13)
 ### Feature
 * Add commit subject ([`bf90164`](https://github.com/jorgesalinas07/aws_spike/commit/bf901645a030f7e44a3bc85a1c388d2645914b19))
