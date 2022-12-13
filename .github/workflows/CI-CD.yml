@@ -47,3 +47,4 @@ jobs:
           semantic-release publish -D commit_author="github-actions <action@github.com>"
         env:
           github_token: ${{secrets.GH_TOKEN}}
+
