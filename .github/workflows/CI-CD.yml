@@ -3,7 +3,8 @@ name: General CI/CD
 on:
   push:
     tags-ignore:
-      - '*-stg'
+      - v[0-9].[0-9]+.[0-9]+-stg
+      - v[0-9].[0-9]+.[0-9]+
     branches:
       - main
     paths-ignore:
