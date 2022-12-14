@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.12.0 (2022-12-14)
+### Feature
+* Remove space ([`246acaf`](https://github.com/jorgesalinas07/aws_spike/commit/246acaff361badb9dd192cf65444dcc71baa7f7d))
+
 ## v0.11.0 (2022-12-14)
 ### Feature
 * Change trigger CI/CD on push tag regex-3 ([`c95eaa2`](https://github.com/jorgesalinas07/aws_spike/commit/c95eaa2ea625a4b47742ac930e955dc8bbb028d2))
