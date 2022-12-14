@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.16.0 (2022-12-14)
+### Feature
+* Remove space ([`67f1562`](https://github.com/jorgesalinas07/aws_spike/commit/67f15624d945d52b26b398bbac132f440e6771d4))
+
 ## v0.15.0 (2022-12-14)
 ### Feature
 * Add tags ignore to General CI/CD ([`38301c5`](https://github.com/jorgesalinas07/aws_spike/commit/38301c54a977750635de1ddef3710727d21465af))
