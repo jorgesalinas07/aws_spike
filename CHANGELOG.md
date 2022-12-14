@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.14.0 (2022-12-14)
+### Feature
+* Add space ([`48bfbe3`](https://github.com/jorgesalinas07/aws_spike/commit/48bfbe3f166034f28e9317ed9c7ab580798ce627))
+
 ## v0.13.0 (2022-12-14)
 ### Feature
 * Add production CI/CD ([`7ca53f4`](https://github.com/jorgesalinas07/aws_spike/commit/7ca53f4a1198d2525c44f8cebf3b4a0aa7e6d9d2))
