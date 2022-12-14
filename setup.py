@@ -10,3 +10,4 @@ setup(
         find_packages(where="./")
     ),
 )
+
