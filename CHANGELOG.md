@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.9.0 (2022-12-14)
+### Feature
+* Change trigger CI/CD on push tag regex ([`1ddcac1`](https://github.com/jorgesalinas07/aws_spike/commit/1ddcac1df855bddfbc8cbf00590cf8f189834564))
+
 ## v0.8.0 (2022-12-14)
 ### Feature
 * Add PR validation in separate workflow ([`fc3519f`](https://github.com/jorgesalinas07/aws_spike/commit/fc3519fa202f954348344a3ecf6eb1c749d54e02))
