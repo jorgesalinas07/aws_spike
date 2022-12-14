@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.6.0 (2022-12-14)
+### Feature
+* Add paths ignore to the General CI-CD ([`e51cdfd`](https://github.com/jorgesalinas07/aws_spike/commit/e51cdfd8478c832ecb9ee817beabcbc963bfbe13))
+
 ## v0.5.0 (2022-12-14)
 ### Feature
 * Trigger CI/CD ([`3850169`](https://github.com/jorgesalinas07/aws_spike/commit/3850169530438ea7b4787449493d1116621441e8))
