@@ -36,11 +36,6 @@ jobs:
         run: |
           make install
 
-      - name: Validate PR name
-        if: github.event_name == 'pull_request'
-        uses: Slashgear/action-check-pr-title@v3.0.0
-        with:
-          regexp: '^OFI-[1-9]\d*: \w+'
       - name: Python Semantic Release
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |
