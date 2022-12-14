@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.8.0 (2022-12-14)
+### Feature
+* Add PR validation in separate workflow ([`fc3519f`](https://github.com/jorgesalinas07/aws_spike/commit/fc3519fa202f954348344a3ecf6eb1c749d54e02))
+
 ## v0.7.0 (2022-12-14)
 ### Feature
 * Trigger CI-CD ([`72eed39`](https://github.com/jorgesalinas07/aws_spike/commit/72eed3911d2853128c292f18989b81c12905dc22))
