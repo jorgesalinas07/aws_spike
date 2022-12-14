@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.18.0 (2022-12-14)
+### Feature
+* Add addition + ([`056a52e`](https://github.com/jorgesalinas07/aws_spike/commit/056a52e4a3351963176af7c52eb57eecd72fe9eb))
+
 ## v0.17.0 (2022-12-14)
 ### Feature
 * OFI-146: Remove space ([#49](https://github.com/jorgesalinas07/aws_spike/issues/49)) ([`a8cc0b4`](https://github.com/jorgesalinas07/aws_spike/commit/a8cc0b4cf333e6d6de3a6d60d878435e81ac52a9))
