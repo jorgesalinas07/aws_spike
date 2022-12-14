@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.11.0 (2022-12-14)
+### Feature
+* Change trigger CI/CD on push tag regex-3 ([`c95eaa2`](https://github.com/jorgesalinas07/aws_spike/commit/c95eaa2ea625a4b47742ac930e955dc8bbb028d2))
+
 ## v0.10.0 (2022-12-14)
 ### Feature
 * Change trigger CI/CD on push tag regex-2 ([`139c64f`](https://github.com/jorgesalinas07/aws_spike/commit/139c64fe14d9ac87f471cc783875defcb11cb6dc))
