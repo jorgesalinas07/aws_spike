@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.0 (2022-12-14)
+### Feature
+* Trigger CI/CD ([`f49fa39`](https://github.com/jorgesalinas07/aws_spike/commit/f49fa39751214cf94b2900b6f2a04402a0ff6ba8))
+
 ## v0.3.0 (2022-12-13)
 ### Feature
 * Trigger CI/CD ([`a8e45e7`](https://github.com/jorgesalinas07/aws_spike/commit/a8e45e7671ffad4e20e53fc022cd321f18ff7cbe))
