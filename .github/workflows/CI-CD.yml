@@ -6,6 +6,9 @@ on:
       - '*-stg'
     branches:
       - main
+    paths-ignore:
+      - CHANGELOG.md
+      - setup.py
   pull_request:
     branches:
       - main
