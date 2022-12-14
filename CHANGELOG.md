@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.15.0 (2022-12-14)
+### Feature
+* Add tags ignore to General CI/CD ([`38301c5`](https://github.com/jorgesalinas07/aws_spike/commit/38301c54a977750635de1ddef3710727d21465af))
+
 ## v0.14.0 (2022-12-14)
 ### Feature
 * Add space ([`48bfbe3`](https://github.com/jorgesalinas07/aws_spike/commit/48bfbe3f166034f28e9317ed9c7ab580798ce627))
