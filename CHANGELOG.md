@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.19.0 (2022-12-14)
+### Feature
+* OFI-148: Add new CI regex PR validation ([#52](https://github.com/jorgesalinas07/aws_spike/issues/52)) ([`6338ebd`](https://github.com/jorgesalinas07/aws_spike/commit/6338ebd7327d90fa793366631fad082aac45412e))
+
 ## v0.18.0 (2022-12-14)
 ### Feature
 * Add addition + ([`056a52e`](https://github.com/jorgesalinas07/aws_spike/commit/056a52e4a3351963176af7c52eb57eecd72fe9eb))
