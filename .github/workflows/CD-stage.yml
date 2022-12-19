@@ -24,3 +24,11 @@ jobs:
       - name: Install dependencies for stage
         run: |
           make install
+
+      - name: Get old version
+        run: |
+          echo "${{ env.version }}"
+
+      - name: Get new version
+        run: |
+          python get_version.py
