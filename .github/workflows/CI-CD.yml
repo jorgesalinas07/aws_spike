@@ -37,6 +37,16 @@ jobs:
         run: |
           make install
 
+      - name: Get version
+        run: |
+          echo 'OLD_VERSION<<EOF' >> $GITHUB_ENV
+          python get_version.py >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+      
+      - name: Use version
+        run: |
+          echo "${{ env.OLD_VERSION }}" 
+
       - name: Python Semantic Release
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |
