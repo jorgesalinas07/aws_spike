@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.21.0 (2022-12-20)
+### Feature
+* Add mark_down_to_text ([`ab5bc1b`](https://github.com/jorgesalinas07/aws_spike/commit/ab5bc1b7d05228598f53d1876f716731ba60e477))
+* Add space ([`28524f2`](https://github.com/jorgesalinas07/aws_spike/commit/28524f20528f3fb930041f0faf6d0248d679bb85))
+
 ## v0.20.0 (2022-12-20)
 ### Feature
 * Add slack message trigger ([#53](https://github.com/jorgesalinas07/aws_spike/issues/53)) ([`bba2773`](https://github.com/jorgesalinas07/aws_spike/commit/bba277343397e3f0cdd12ddd4652cefdb728c06c))
