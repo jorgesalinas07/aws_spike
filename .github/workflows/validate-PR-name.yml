@@ -14,3 +14,4 @@ jobs:
         uses: Slashgear/action-check-pr-title@v3.0.0
         with:
           regexp: '^build|ci|docs|feat|fix|perf|refactor|test:+ OFI-[1-9]\d*: \w+'
+
