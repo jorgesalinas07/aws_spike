@@ -39,7 +39,9 @@ jobs:
 
       - name: Get version
         run: |
-          echo -n 'version=0.19.0' >> $GITHUB_ENV
+          export OLD_VERSION="$(python get_version.py)"
+          echo -n 'version=$OLD_VERSION'
+          echo -n 'version=$OLD_VERSION' >> $GITHUB_ENV
 
       - name: Python Semantic Release
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
