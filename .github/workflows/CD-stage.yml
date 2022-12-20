@@ -25,9 +25,9 @@ jobs:
         run: |
           make install
 
-      - name: Get old version
+      - name: Get OLD VERSION
         run: |
-          echo "${{ env.version }}"
+          echo "${{ env.OLD_VERSION }}"
 
       - name: Get new version
         run: |
