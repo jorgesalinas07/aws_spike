@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.20.0 (2022-12-20)
+### Feature
+* Add slack message trigger ([#53](https://github.com/jorgesalinas07/aws_spike/issues/53)) ([`bba2773`](https://github.com/jorgesalinas07/aws_spike/commit/bba277343397e3f0cdd12ddd4652cefdb728c06c))
+
 ## v0.19.0 (2022-12-14)
 ### Feature
 * OFI-148: Add new CI regex PR validation ([#52](https://github.com/jorgesalinas07/aws_spike/issues/52)) ([`6338ebd`](https://github.com/jorgesalinas07/aws_spike/commit/6338ebd7327d90fa793366631fad082aac45412e))
