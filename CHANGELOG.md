@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.22.0 (2022-12-21)
+### Feature
+* OFI-151: Add space ([#54](https://github.com/jorgesalinas07/aws_spike/issues/54)) ([`34344a3`](https://github.com/jorgesalinas07/aws_spike/commit/34344a31d042d67b235c6826ee48b9477df36ad2))
+
 ## v0.21.0 (2022-12-20)
 ### Feature
 * Add mark_down_to_text ([`ab5bc1b`](https://github.com/jorgesalinas07/aws_spike/commit/ab5bc1b7d05228598f53d1876f716731ba60e477))
