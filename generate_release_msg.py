@@ -2,7 +2,7 @@ import re
 from get_version import get_version
 from markdown_to_text import parse_markdown_to_text, markdown_to_text
 
-changelog_lines = []
+changelog_lines = {}
 changelog_first_line = "v"+get_version("setup.py")
 # changelog_first_line = f"## {os.getenv('NEW_VERSION')}"
 # changelog_last_line = f"## {os.getenv('OLD_VERSION')}"
@@ -17,9 +17,13 @@ with open('CHANGELOG.md') as changelog_file:
       print(text_line)
       if re.match(version_regex, text_line):
         if text_line.startswith(changelog_first_line):
-          changelog_lines.append({"version":text_line})
+          changelog_lines["version"]=text_line
+          print(changelog_lines)
+          continue
         break
-        
+      if text_line in ['Feature', 'Fix', 'Build', 'CI', 'DOCS', 'PERF', 'REFACTOR', 'TEST']:
+        changelog_lines["type"]=text_line
+        print(changelog_lines)
       continue
 #print(parse_markdown_to_text("CHANGELOG.md"))
 # parsed_changelog = parse_markdown_to_text("CHANGELOG.md")
