@@ -37,6 +37,20 @@ jobs:
         run: |
           make install
 
+      - name: Generate release note production message
+        id: stage-msg
+        run: |
+          echo "stage-msg=$((source .venv/bin/activate && python generate_release_msg.py))" >> $GITHUB_OUTPUT
+
+      - name: Post to a Slack channel
+        id: slack
+        uses: slackapi/slack-github-action@v1.23.0
+        with:
+          channel-id: 'C03HH6EUT2A'
+          slack-message: ${{steps.stage-msg.outputs.stage-msg}}
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+
       - name: Python Semantic Release
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |

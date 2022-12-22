@@ -25,14 +25,6 @@ jobs:
         run: |
           make install
 
-      - name: Get OLD VERSION
-        run: |
-          echo "${{ env.OLD_VERSION }}"
-
-      - name: Get new version
-        run: |
-          python get_version.py
-
       - name: Generate stage message
         run: |
           source .venv/bin/activate && python generate_release_msg.py
