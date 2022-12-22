@@ -25,6 +25,6 @@ jobs:
         run: |
           make install
 
-      - name: Generate production message from 1
+      - name: Generate production message
         run: |
           source .venv/bin/activate && ENVIRONMENT='production' VERSION=$GITHUB_REF_NAME python generate_release_msg.py

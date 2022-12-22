@@ -14,7 +14,6 @@ current_type = None
 with open('CHANGELOG.md') as changelog_file:
     for line in changelog_file:
       text_line=markdown_to_text(line)
-      print(text_line)
       if re.match(version_regex, text_line):
         if text_line.startswith(changelog_first_line):
           changelog_lines["version"]=text_line
