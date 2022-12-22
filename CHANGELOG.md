@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.26.0 (2022-12-22)
+### Feature
+* OFI-152: Generate release message with env variables ([#56](https://github.com/jorgesalinas07/aws_spike/issues/56)) ([`dfd8ab0`](https://github.com/jorgesalinas07/aws_spike/commit/dfd8ab0dbd67c776b6fa154d68107f2b24d3bde5))
+
 ## v0.25.0 (2022-12-22)
 ### Feature
 * OFI-198: Add production message-2 (#55) ([`751dca2`](https://github.com/jorgesalinas07/aws_spike/commit/751dca278f337dcb497b2bb1ddae4c751c9c5140))
