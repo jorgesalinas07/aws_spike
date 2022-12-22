@@ -39,7 +39,11 @@ jobs:
 
       - name: Generate production message
         run: |
-          .venv/bin/activate && ENVIRONMENT='production' python generate_release_msg.py
+          source .venv/bin/activate && ENVIRONMENT='production' python generate_release_msg.py
+
+      - name: Generate stage message
+        run: |
+          source .venv/bin/activate && python generate_release_msg.py
 
       - name: Get version
         run: |
@@ -61,6 +65,3 @@ jobs:
         env:
           github_token: ${{secrets.GH_TOKEN}}
 
-      - name: Generate stage message
-        run: |
-          .venv/bin/activate && python generate_release_msg.py
