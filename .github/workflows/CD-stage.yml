@@ -33,10 +33,6 @@ jobs:
         run: |
           python get_version.py
 
-      - name: Generate production message from 1
+      - name: Generate stage message
         run: |
-          source .venv/bin/activate && ENVIRONMENT='production' VERSION=$GITHUB_REF_NAME python generate_release_msg.py
-
-      - name: Generate production message from 2
-        run: |
-          source .venv/bin/activate && ENVIRONMENT='production' VERSION=${{  github.ref_name }} python generate_release_msg.py
+          source .venv/bin/activate && python generate_release_msg.py
