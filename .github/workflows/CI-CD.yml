@@ -56,3 +56,11 @@ jobs:
           DEBUG='semantic_release.*' semantic-release publish -D commit_author="github-actions <action@github.com>"
         env:
           github_token: ${{secrets.GH_TOKEN}}
+
+      - name: Generate stage message
+        run: |
+          python generate_release_msg.py
+
+      - name: Generate production message
+        run: |
+          ENVIRONMENT='production' python generate_release_msg.py

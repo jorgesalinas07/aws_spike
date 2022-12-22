@@ -1,4 +1,5 @@
 import re
+import os
 from get_version import get_version
 from markdown_to_text import markdown_to_text
 
@@ -29,6 +30,6 @@ with open('CHANGELOG.md') as changelog_file:
 
 slack_message = """
 Released **{version}** to **{environment}**:
-""".format(version=changelog_first_line, environment='Staging')
+""".format(version=changelog_first_line, environment=os.getenv('ENVIRONMENT', 'Staging'))
 slack_message += f"- {changelog_lines['ticket']}: {changelog_lines['title']} ({changelog_lines['PR']} merged as {changelog_lines['commit']}) ({changelog_lines['type']})"
 print(slack_message)
