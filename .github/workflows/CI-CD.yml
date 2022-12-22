@@ -39,7 +39,7 @@ jobs:
 
       - name: Generate production message
         run: |
-          source .venv/bin/activate && ENVIRONMENT='production' python generate_release_msg.py
+          source .venv/bin/activate && ENVIRONMENT='production' VERSION='0.19.0' python generate_release_msg.py
 
       - name: Generate stage message
         run: |
