@@ -64,4 +64,3 @@ jobs:
       - name: Generate production message
         run: |
           .venv/bin/activate && ENVIRONMENT='production' python generate_release_msg.py
-
