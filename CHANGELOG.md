@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.23.0 (2022-12-22)
+### Feature
+* OFI-150 create slack message ([#55](https://github.com/jorgesalinas07/aws_spike/issues/55)) ([`854f7fc`](https://github.com/jorgesalinas07/aws_spike/commit/854f7fc6b11c6791c83bee99b401a2a2d878b595))
+
 ## v0.22.0 (2022-12-21)
 ### Feature
 * OFI-151: Add space ([#54](https://github.com/jorgesalinas07/aws_spike/issues/54)) ([`34344a3`](https://github.com/jorgesalinas07/aws_spike/commit/34344a31d042d67b235c6826ee48b9477df36ad2))
