@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.25.0 (2022-12-22)
+### Feature
+* Add production message-2 ([`751dca2`](https://github.com/jorgesalinas07/aws_spike/commit/751dca278f337dcb497b2bb1ddae4c751c9c5140))
+
+## v0.24.0 (2022-12-22)
+### Feature
+* Add production message ([`9aac07c`](https://github.com/jorgesalinas07/aws_spike/commit/9aac07ce035e983be6e981242f6b0ca5b386b09a))
+
 ## v0.23.0 (2022-12-22)
 ### Feature
 * OFI-150 create slack message ([#55](https://github.com/jorgesalinas07/aws_spike/issues/55)) ([`854f7fc`](https://github.com/jorgesalinas07/aws_spike/commit/854f7fc6b11c6791c83bee99b401a2a2d878b595))
