@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.31.0 (2022-12-27)
+### Feature
+* Add build command to pyproject ([`374d055`](https://github.com/jorgesalinas07/aws_spike/commit/374d05537d41e1dc0f6a5c6e96c57113cf040c52))
+
 ## v0.30.0 (2022-12-27)
 ### Feature
 * Add space ([#58](https://github.com/jorgesalinas07/aws_spike/issues/58)) ([`8677992`](https://github.com/jorgesalinas07/aws_spike/commit/867799261c8f36f1f63871a2661290467cd9d46e))
