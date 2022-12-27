@@ -11,7 +11,7 @@ version_regex = '^v[0-9]\.+[0-9]+\.[0-9] \([^)]*\)'
 changelog_line_regex = "(OFI-[1-9][0-9]*): (.*) \((#[1-9][0-9]*)\) \(([0-9a-f]+)\)$"
 current_type = None
 
-with open('../CHANGELOG.md') as changelog_file:
+with open('./CHANGELOG.md') as changelog_file:
     for line in changelog_file:
       text_line=markdown_to_text(line)
       if re.match(version_regex, text_line):
