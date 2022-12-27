@@ -41,7 +41,7 @@ jobs:
         id: stage-msg
         run: |
           message=$(source .venv/bin/activate && python generate_release_msg.py)
-          echo "stage-msg=message" >> $GITHUB_OUTPUT
+          echo "stage-msg=$message" >> $GITHUB_OUTPUT
 
       - name: Post to a Slack channel
         id: slack
