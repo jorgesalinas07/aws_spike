@@ -9,7 +9,7 @@ on:
       - main
     paths-ignore:
       - CHANGELOG.md
-      - setup.py
+      - release_version_tools/setup.py
   pull_request:
     branches:
       - main
