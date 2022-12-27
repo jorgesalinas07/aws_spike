@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.28.0 (2022-12-27)
+### Feature
+* Add one folder for version files ([`cf827ca`](https://github.com/jorgesalinas07/aws_spike/commit/cf827cac4efbf86053c88a8ef83203b34544e33e))
+
 ## v0.27.0 (2022-12-27)
 ### Feature
 * JS/OFI-153: Test output value with slack message-2 ([#57](https://github.com/jorgesalinas07/aws_spike/issues/57)) ([`472f712`](https://github.com/jorgesalinas07/aws_spike/commit/472f71259b804c086d2c2d7056cccc98124f2614))
