@@ -13,8 +13,4 @@ jobs:
         if: github.event_name == 'pull_request'
         uses: Slashgear/action-check-pr-title@v3.0.0
         with:
-          #Change to receive name
-          regexp: '^build|ci|docs|feat|fix|perf|refactor|test:+ OFI-[1-9]\d*: \w+'
-
-
-
+          regexp: '^(build|ci|docs|feat|fix|perf|refactor|test):+ [A-Z]+/OFI-[1-9]\d*: \w+'
