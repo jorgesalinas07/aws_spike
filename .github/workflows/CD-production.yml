@@ -25,6 +25,18 @@ jobs:
         run: |
           make install
 
-      - name: Generate production message
+      - name: Generate release note production message
+        id: Prod-msg
         run: |
-          source .venv/bin/activate && ENVIRONMENT='production' VERSION=$GITHUB_REF_NAME python generate_release_msg.py
+          echo 'MESSAGE<<EOF' >> $GITHUB_ENV
+          source .venv/bin/activate && ENVIRONMENT='production' VERSION=$GITHUB_REF_NAME python generate_release_msg.py >> $GITHUB_ENV 
+          echo 'EOF' >> $GITHUB_ENV
+
+      - name: Post to a Slack channel
+        id: slack
+        uses: slackapi/slack-github-action@v1.23.0
+        with:
+          channel-id: 'C03HH6EUT2A'
+          slack-message: ${{ env.MESSAGE }}
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
