@@ -13,6 +13,6 @@ markdown = "^3.4.1"
 [tool.semantic_release]
 tag_format = "v{version}-stg"
 branch = "main"
-version_variable = "setup.py:__version__"
+version_variable = "release_version_tools/setup.py:__version__"
 upload_to_repository = false
 
