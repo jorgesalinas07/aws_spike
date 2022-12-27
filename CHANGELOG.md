@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.32.0 (2022-12-27)
+### Feature
+* JS/OFI-155: Remove space ([#59](https://github.com/jorgesalinas07/aws_spike/issues/59)) ([`caaa844`](https://github.com/jorgesalinas07/aws_spike/commit/caaa84417af19caa19229c87337d1bc3520119e2))
+
 ## v0.31.0 (2022-12-27)
 ### Feature
 * Add build command to pyproject ([`374d055`](https://github.com/jorgesalinas07/aws_spike/commit/374d05537d41e1dc0f6a5c6e96c57113cf040c52))
