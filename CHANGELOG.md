@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.30.0 (2022-12-27)
+### Feature
+* Add space ([#58](https://github.com/jorgesalinas07/aws_spike/issues/58)) ([`8677992`](https://github.com/jorgesalinas07/aws_spike/commit/867799261c8f36f1f63871a2661290467cd9d46e))
+
 ## v0.29.0 (2022-12-27)
 ### Feature
 * JS/OFI-155-change-trigger-python-file ([`c3eb082`](https://github.com/jorgesalinas07/aws_spike/commit/c3eb0824bcf5817e6ea5e502e32e2340d24faa2b))
