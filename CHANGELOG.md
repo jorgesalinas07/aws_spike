@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.34.0 (2022-12-27)
+### Feature
+* JS/OFI-157: Add path-ignore correction ([#61](https://github.com/jorgesalinas07/aws_spike/issues/61)) ([`43a8994`](https://github.com/jorgesalinas07/aws_spike/commit/43a8994edf74d8bf247079c22406539635cd0979))
+
 ## v0.33.0 (2022-12-27)
 ### Feature
 * JS/OFI-156: Add space ([#60](https://github.com/jorgesalinas07/aws_spike/issues/60)) ([`3695260`](https://github.com/jorgesalinas07/aws_spike/commit/3695260496166bcd50217bdeabdda0483cde46f1))
