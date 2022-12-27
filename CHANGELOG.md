@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.27.0 (2022-12-27)
+### Feature
+* JS/OFI-153: Test output value with slack message-2 ([#57](https://github.com/jorgesalinas07/aws_spike/issues/57)) ([`472f712`](https://github.com/jorgesalinas07/aws_spike/commit/472f71259b804c086d2c2d7056cccc98124f2614))
+
 ## v0.26.0 (2022-12-22)
 ### Feature
 * OFI-152: Generate release message with env variables ([#56](https://github.com/jorgesalinas07/aws_spike/issues/56)) ([`dfd8ab0`](https://github.com/jorgesalinas07/aws_spike/commit/dfd8ab0dbd67c776b6fa154d68107f2b24d3bde5))
