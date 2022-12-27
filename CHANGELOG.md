@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.33.0 (2022-12-27)
+### Feature
+* JS/OFI-156: Add space ([#60](https://github.com/jorgesalinas07/aws_spike/issues/60)) ([`3695260`](https://github.com/jorgesalinas07/aws_spike/commit/3695260496166bcd50217bdeabdda0483cde46f1))
+
 ## v0.32.0 (2022-12-27)
 ### Feature
 * JS/OFI-155: Remove space ([#59](https://github.com/jorgesalinas07/aws_spike/issues/59)) ([`caaa844`](https://github.com/jorgesalinas07/aws_spike/commit/caaa84417af19caa19229c87337d1bc3520119e2))
