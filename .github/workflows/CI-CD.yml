@@ -40,7 +40,8 @@ jobs:
       - name: Generate release note production message
         id: stage-msg
         run: |
-          echo "stage-msg=$(source .venv/bin/activate && python generate_release_msg.py)" >> $GITHUB_OUTPUT
+          message=$(source .venv/bin/activate && python generate_release_msg.py)
+          echo "stage-msg=message" >> $GITHUB_OUTPUT
 
       - name: Post to a Slack channel
         id: slack
