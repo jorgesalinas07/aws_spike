@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.29.0 (2022-12-27)
+### Feature
+* JS/OFI-155-change-trigger-python-file ([`c3eb082`](https://github.com/jorgesalinas07/aws_spike/commit/c3eb0824bcf5817e6ea5e502e32e2340d24faa2b))
+
 ## v0.28.0 (2022-12-27)
 ### Feature
 * OFI-154: Add one folder for version files (#58) ([`cf827ca`](https://github.com/jorgesalinas07/aws_spike/commit/cf827cac4efbf86053c88a8ef83203b34544e33e))
