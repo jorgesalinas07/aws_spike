@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.35.0 (2023-01-03)
+### Feature
+* JS/OFI-158: Trigger successfully ([#62](https://github.com/jorgesalinas07/aws_spike/issues/62)) ([`adad108`](https://github.com/jorgesalinas07/aws_spike/commit/adad108ff34d9e85398a7595449588798e42d8ff))
+
 ## v0.34.0 (2022-12-27)
 ### Feature
 * JS/OFI-157: Add path-ignore correction ([#61](https://github.com/jorgesalinas07/aws_spike/issues/61)) ([`43a8994`](https://github.com/jorgesalinas07/aws_spike/commit/43a8994edf74d8bf247079c22406539635cd0979))
