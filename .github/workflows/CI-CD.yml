@@ -52,15 +52,6 @@ jobs:
           payload: |
             {
               "text": ${{ toJSON(env.MESSAGE) }},
-              "fields": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": ${{ toJSON(env.MESSAGE) }}
-                  }
-                }
-              ]
             }
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
