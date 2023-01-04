@@ -51,7 +51,15 @@ jobs:
           channel-id: 'C03HH6EUT2A'
           payload: |
             {
-              "text": ${{ toJSON(env.MESSAGE) }},
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ${{ toJSON(env.MESSAGE) }}
+                  }
+                }
+              ]
             }
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
