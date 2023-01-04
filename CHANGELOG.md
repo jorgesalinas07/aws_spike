@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.36.0 (2023-01-04)
+### Feature
+* OFI-163: Change slack message to markdown ([#67](https://github.com/jorgesalinas07/aws_spike/issues/67)) ([`11c910f`](https://github.com/jorgesalinas07/aws_spike/commit/11c910f61ca7c95cba84852e6780ebccd4eb85b3))
+
 ## v0.35.2 (2023-01-04)
 ### Fix
 * JS/OFI-161: trigger successfully ([#65](https://github.com/jorgesalinas07/aws_spike/issues/65)) ([`0085d34`](https://github.com/jorgesalinas07/aws_spike/commit/0085d34e134a411f071609821c5e271e2d7f4eb6))
