@@ -51,13 +51,13 @@ jobs:
           channel-id: 'C03HH6EUT2A'
           payload: |
             {
-              "text": "${{ env.MESSAGE }}",
+              "text": ${{ toJSON(env.MESSAGE) }},
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "${{ env.MESSAGE }}"
+                    "text": ${{ toJSON(env.MESSAGE) }}
                   }
                 }
               ]
