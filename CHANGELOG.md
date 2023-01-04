@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.35.2 (2023-01-04)
+### Fix
+* JS/OFI-161: trigger successfully ([#65](https://github.com/jorgesalinas07/aws_spike/issues/65)) ([`0085d34`](https://github.com/jorgesalinas07/aws_spike/commit/0085d34e134a411f071609821c5e271e2d7f4eb6))
+
 ## v0.35.1 (2023-01-03)
 ### Fix
 * JS/OFI-160: Capitalize production ([#64](https://github.com/jorgesalinas07/aws_spike/issues/64)) ([`9f8bcbc`](https://github.com/jorgesalinas07/aws_spike/commit/9f8bcbcd7846776da54a798db9ae4557d4ad213a))
