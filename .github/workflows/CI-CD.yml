@@ -49,10 +49,9 @@ jobs:
         uses: slackapi/slack-github-action@v1.23.0
         with:
           channel-id: 'C03HH6EUT2A'
-          slack-message: "${{ env.MESSAGE }}"
           payload: |
             {
-              "text": ${{ env.MESSAGE }},
+              "text": "${{ env.MESSAGE }}",
               "blocks": [
                 {
                   "type": "section",
