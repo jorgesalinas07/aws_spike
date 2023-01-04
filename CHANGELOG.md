@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.37.0 (2023-01-04)
+### Feature
+* JS/OFI-164: Add empty message ([#68](https://github.com/jorgesalinas07/aws_spike/issues/68)) ([`5fed063`](https://github.com/jorgesalinas07/aws_spike/commit/5fed063cf947b9b8fafc1fbf4c7296ada38e86f9))
+
 ## v0.36.0 (2023-01-04)
 ### Feature
 * OFI-163: Change slack message to markdown ([#67](https://github.com/jorgesalinas07/aws_spike/issues/67)) ([`11c910f`](https://github.com/jorgesalinas07/aws_spike/commit/11c910f61ca7c95cba84852e6780ebccd4eb85b3))
