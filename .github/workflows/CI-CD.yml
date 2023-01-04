@@ -52,7 +52,7 @@ jobs:
           payload: |
             {
               "text": ${{ toJSON(env.MESSAGE) }},
-              "blocks": [
+              "fields": [
                 {
                   "type": "section",
                   "text": {
