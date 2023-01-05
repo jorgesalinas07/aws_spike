@@ -39,7 +39,7 @@ jobs:
 
       - name: Create (and push) an empty commit if there is just one commit on the current branch
         run: |
-          CURRENT_BRANCH_GIT_LOG=`git log --oneline main..HEAD`
+          CURRENT_BRANCH_GIT_LOG=`git log --oneline origin/main..HEAD`
           CURRENT_BRANCH_NUM_COMMITS=`echo $CURRENT_BRANCH_GIT_LOG | wc -l`
           if [ "$CURRENT_BRANCH_NUM_COMMITS" = "1" ] ; then
             git config user.email "no-reply+github-actions@ioet.com"
