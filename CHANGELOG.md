@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.38.0 (2023-01-05)
+### Feature
+* JS/OFI-165: Add validation for one commit ([#69](https://github.com/jorgesalinas07/aws_spike/issues/69)) ([`033cac3`](https://github.com/jorgesalinas07/aws_spike/commit/033cac32aaaa6a97b6a6e856b68786b6345670c6))
+
+### Fix
+* JS/OFI-166: trigger successfully ([#70](https://github.com/jorgesalinas07/aws_spike/issues/70)) ([`d20d935`](https://github.com/jorgesalinas07/aws_spike/commit/d20d935a4fd1eb621c7935d82995dd48fb715e99))
+
 ## v0.37.0 (2023-01-04)
 ### Feature
 * JS/OFI-164: Add empty message ([#68](https://github.com/jorgesalinas07/aws_spike/issues/68)) ([`5fed063`](https://github.com/jorgesalinas07/aws_spike/commit/5fed063cf947b9b8fafc1fbf4c7296ada38e86f9))
