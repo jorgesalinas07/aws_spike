@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.39.0 (2023-01-06)
+### Feature
+* JS/OFI-168: Trigger Successfully ([#72](https://github.com/jorgesalinas07/aws_spike/issues/72)) ([`289eddb`](https://github.com/jorgesalinas07/aws_spike/commit/289eddb0c8a52be29edb2c960434d798e11cd2ea))
+* JS/OFI-167: Remove space ([#71](https://github.com/jorgesalinas07/aws_spike/issues/71)) ([`ade629a`](https://github.com/jorgesalinas07/aws_spike/commit/ade629a8b056c441d251eac48da047681d04198f))
+
 ## v0.38.0 (2023-01-05)
 ### Feature
 * JS/OFI-165: Add validation for one commit ([#69](https://github.com/jorgesalinas07/aws_spike/issues/69)) ([`033cac3`](https://github.com/jorgesalinas07/aws_spike/commit/033cac32aaaa6a97b6a6e856b68786b6345670c6))
