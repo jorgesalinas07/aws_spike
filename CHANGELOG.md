@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.41.0 (2023-01-06)
+### Feature
+* JS/OFI-170: make commit p2 ([#74](https://github.com/jorgesalinas07/aws_spike/issues/74)) ([`1c784ad`](https://github.com/jorgesalinas07/aws_spike/commit/1c784adcf86133475dcf26130f4b70f9e04652ea))
+
 ## v0.40.0 (2023-01-06)
 ### Feature
 * JS/OFI-169: Move commit in workspace and remove skip CI ([#73](https://github.com/jorgesalinas07/aws_spike/issues/73)) ([`406dc8b`](https://github.com/jorgesalinas07/aws_spike/commit/406dc8b98decafae66c195bb32a860253de2fd61))
