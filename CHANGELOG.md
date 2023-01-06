@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.42.0 (2023-01-06)
+### Feature
+* JS/OFI-171: Trigger successfully ([#75](https://github.com/jorgesalinas07/aws_spike/issues/75)) ([`f4397c7`](https://github.com/jorgesalinas07/aws_spike/commit/f4397c7aea2e515714a794a5ebea825d36e1d085))
+
 ## v0.41.0 (2023-01-06)
 ### Feature
 * JS/OFI-170: make commit p2 ([#74](https://github.com/jorgesalinas07/aws_spike/issues/74)) ([`1c784ad`](https://github.com/jorgesalinas07/aws_spike/commit/1c784adcf86133475dcf26130f4b70f9e04652ea))
