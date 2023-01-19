@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.44.0 (2023-01-19)
+### Feature
+* JS/OFI-171: Trigger successfully ([#77](https://github.com/jorgesalinas07/aws_spike/issues/77)) ([`cafe145`](https://github.com/jorgesalinas07/aws_spike/commit/cafe145e2c51085adc362c6b0706f873f4084dd8))
+
 ## v0.43.0 (2023-01-13)
 ### Feature
 * JS/OFI-54: Devops 54 trigger ci cd organize and automate release engineering for ioet desk p2 ([#76](https://github.com/jorgesalinas07/aws_spike/issues/76)) ([`a299524`](https://github.com/jorgesalinas07/aws_spike/commit/a299524de4af4eca788b9cdf73b9604f41d54655))
